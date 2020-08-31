@@ -55,7 +55,7 @@ a{
 }
 
 a:hover{
-    color: black;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -93,7 +93,6 @@ img.profile-img {
 /* background image full height width */
 .bg-image {
     height: 100vh;
-    width: 100vw;
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
@@ -112,4 +111,12 @@ img.profile-img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.navbar-shrink .show{
+    color: black;
+}
+
+.navbar-shrink{
+    background: #fff;
 }
