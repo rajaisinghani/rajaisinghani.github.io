@@ -11,7 +11,7 @@
         margin-top: 1rem;
         li.nav-item {
             a.nav-link {
-                color: $white;
+                color: $black;
                 &:hover {
                     color: $primary;
                 }
@@ -44,6 +44,11 @@
         }
         .navbar-nav {
             margin-top: 0;
+            li.nav-item {
+                a.nav-link {
+                    color: $white;
+                }
+            }
         }
         .navbar-nav > li.nav-item > a.nav-link.active {
             color: $primary;
@@ -59,8 +64,9 @@
     #mainNav.navbar-shrink {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
+        background: $secondary;
         .navbar-brand {
-            font-size: 1.5em;
+            font-size: 1.5em;  
         }
     }
 }

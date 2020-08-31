@@ -7223,7 +7223,7 @@ a.text-dark:hover, a.text-dark:focus {
   #mainNav .navbar-nav {
     margin-top: 1rem; }
     #mainNav .navbar-nav li.nav-item a.nav-link {
-      color: #fff; }
+      color: #000; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
         color: #1abc9c; }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -7246,13 +7246,16 @@ a.text-dark:hover, a.text-dark:focus {
       transition: font-size 0.3s; }
     #mainNav .navbar-nav {
       margin-top: 0; }
+      #mainNav .navbar-nav li.nav-item a.nav-link {
+        color: #fff; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: #1abc9c; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: #1abc9c; }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem; }
+    padding-bottom: 0.5rem;
+    background: #2c3e50; }
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.5em; } }
 
