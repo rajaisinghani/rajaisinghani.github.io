@@ -69,15 +69,6 @@ a:hover{
     box-shadow: none;
 }
 
-@keyframes fade-in-left {
-    0%      { transform: translate(-4%,0); opacity:0; }
-    100%    { transform: translate(0,0);   opacity:1; }
-  }
-  .transitionSlideIn {
-    opacity: 1;
-    animation: fade-in-left 1.5s 1;
-  }
-
 img.profile-img {
     width: 100%;
 }
@@ -112,6 +103,7 @@ img.profile-img {
     justify-content: center;
     flex-direction: column;
 }
+/* -------------------------------------*/
 
 .navbar-shrink .show{
     color: black;
@@ -120,3 +112,14 @@ img.profile-img {
 .navbar-shrink{
     background: #fff;
 }
+
+img,section {
+    opacity: 0;
+    transform: translate(0, 20px); 
+    transition: all 2s;
+    }
+
+img.visible,section.visible {
+    opacity: 1;
+    transform: translate(0, 0); 
+    }

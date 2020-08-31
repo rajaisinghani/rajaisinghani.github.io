@@ -64,39 +64,23 @@
         $(this).removeClass("floating-label-form-group-with-focus");
       });
     });
-  
+
   })(jQuery); // End of use strict
   
-  //slide in left animation
-  $(document).ready(function(){
-    $(window).scroll(function () {
-      triggerSlideIns( $(this), [ $('h1.slide-in-1'), $('h1.slide-in-2'), $('h1.slide-in-3'), $('img.profile-img')]);
-    });
-  });
-  
-  $.getDocHeight = function(){
-    return Math.max(
-        $(document).height(),
-        $(window).height(),
-        document.documentElement.clientHeight
-    );
-  };
-  
-  $.getScrollPercentage = function(){
-    return 100 * Math.min(
-      ($(window).height() + $(window).scrollTop()) / $.getDocHeight(),
-      $(window).scrollTop()
-      );
-  };
-  
-  var triggerSlideIns = function(t, items) {
-    
-    for (var i = 0; i < items.length; i++) {
-      if((( $.getDocHeight() - $(window).height()) - ( $.getDocHeight() - items[i].offset().top )) <= t.scrollTop()) {
-        if(!items[i].hasClass('transitionSlideIn'))
-        {
-          items[i].addClass('transitionSlideIn');
+      //fade in on scroll animation
+      $(document).on("scroll", function () {
+        var pageTop = $(document).scrollTop()
+        var pageBottom = pageTop + $(window).height()
+        var tags = $("section, img")
+        
+        for (var i = 0; i < tags.length; i++) {
+          var tag = tags[i]
+          
+          if ($(tag).position().top < pageBottom) {
+            $(tag).addClass("visible")
+          } 
+          else {
+            $(tag).removeClass("visible")
+          }
         }
-      } else { items[i].removeClass('transitionSlideIn'); }
-    }
-  };
+      })
