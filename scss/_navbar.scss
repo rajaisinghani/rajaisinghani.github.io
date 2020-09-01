@@ -13,13 +13,13 @@
         li.nav-item {
             a.nav-link {
                 &:hover {
-                    border-bottom: 2px solid;
                     font-weight: 800;
                 }
                 &:active,
                 &:focus {
                 }
                 &.active {
+                    border-bottom: 2px solid;
                     font-weight: 800; 
                 }
             }
@@ -44,13 +44,13 @@
             li.nav-item {
                 a.nav-link {
                     &:hover {
-                        border-bottom: 2px solid;
                         font-weight: 800;
                     }
                     &:active,
                     &:focus {
                     }
                     &.active {
+                        border-bottom: 2px solid;
                         font-weight: 800; 
                     }
                 }

@@ -13,9 +13,9 @@
             left: 0;
             transition: $transition-base;
             opacity: 0;
-            background-color: fade-out($primary, 0.1);
+            background-color: fade-out($white, 0.1);
             &:hover {
-                opacity: 1;
+                opacity: 0.9;
             }
             .portfolio-item-caption-content {
                 font-size: 1.5rem;

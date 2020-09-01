@@ -18,7 +18,6 @@
 
         <!-- add custom css -->
         <link href="css/custom.css" rel="stylesheet">
-
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -60,15 +59,15 @@
         </div>
 
         <!-- About Section-->
-        <section class="page-section text-secondary mb-0" id="about">
+        <section class="page-section mb-0" id="about">
                 <div class="container">
                     <!-- About Section Heading-->
-                    <h1 class="text-center text-secondary display-3">About me</h1>
+                    <h1 class="text-center display-3">About me</h1>
                     <!-- Icon Divider-->
                     <div class="divider-custom-lg divider-light">
                     </div>
                     <!-- About Section Content-->
-                    <div class="row">
+                    <div class="row text-secondary">
                         <div class="col-lg-5 ml-auto">
                             <img class="img profile-img align-items-center rounded-circle my-auto" src="assets/img/profile.jpg" alt="profile image">
                         </div>
@@ -92,7 +91,7 @@
         <section class="page-section text-secondary mb-0" id="experience">
             <div class="container">
                 <!-- Education Section Heading-->
-                <h1 class="text-center text-secondary display-4 slide-in-3">Education</h1>
+                <h1 class="text-center text-secondary display-4 slide-in-3"><i class="fa fa-university"></i>Education</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom-lg divider-light"></div>
                 <!-- Education Section Content-->
@@ -118,8 +117,8 @@
 
         <!--Work Experience Section-->
         <section class="page-section mb-0" id="work-experience">
-            <div class="container">
-                    <h1 class="text-center display-4">Work Experience</h1>
+            <div class="container justify-content-center">
+                    <h1 class="text-center display-4"><i class="fa fa-briefcase"></i>Work Experience</h1>
                     <div class="divider-custom-lg divider-light"></div>
 
                     <div class=" row justify-content-center exp-item mt-4">
@@ -157,17 +156,52 @@
                 <div class="divider-custom-lg"></div>
                 <!-- Portfolio Grid Items-->
                 <div class="row">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item portfolio-content mx-auto" data-target="#portfolioModal1">
-                            <a class="git-link mx-auto" href="https://github.com/rajaisinghani/spotify-playlist-generator">
-                            <h6 class="text-center mt-2 mb-3">Spotify Playlist Generator</h6>
-                            <i class="fab fa-spotify fa-3x icon"></i>
-                            <p class="mt-4 text-muted">website that generates Spotify playlists based on selected songs and user preferences using Spotify Web API and React</p> 
-                            </a>
-                            
+
+                    <!--tripRWS-->
+                    <div class="col-6 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6" style="background-color:#fff">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption h-100 text-center">
+                                    <h6 class="text-center mt-2 mb-3">tripRWS</h6>
+                                    <i class="fas fa-plane fa-3x icon"></i>
+                                    <p class="mt-4 text-muted">WeChat Mini Program that provides Chinese tourists visiting Resort World Sentosa in Singapore with a seamless and immersive travel experience. Developed during my internship at USER Experience Researchers as part of WeChat Developer Challenge in Singapore.</p>
+                                </div>
+                            </div>
+                            <h6 class="text-center text-black mt-2 mb-3">tripRWS</h6>
+                            <img class="img-fluid rounded" src="assets/img/triprws.png" alt="" />
                         </div>
                     </div>
+
+                    <!--Pulse Voter-->
+                    <div class="col-6 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6" style="background-color:#fff">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption h-100 text-center">
+                                    <h6 class="text-center mt-2 mb-3">Pulse Voter</h6>
+                                    <i class="fas fa-bullhorn fa-3x icon"></i>
+                                    <p class="mt-4 text-muted">A civic engagement platform that connects citizens to their elected representatives on a per-bill basis. Freelance project developed for Pulse Voter in React Native.</p>
+                                </div>
+                            </div>
+                            <h6 class="text-center text-black mt-2 mb-3">Pulse Voter</h6>
+                            <img class="img-fluid" src="assets/img/pulse.jpg" alt="" />
+                        </div>
+                    </div>
+
+                    <!--spotify playlist generator-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                            <div class="portfolio-item mx-auto text-center" data-toggle="modal" data-target="#portfolioModal6" style="background-color: #1DB954">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                    <div class="portfolio-item-caption h-100 text-center">
+                                            <h6 class="text-center mt-2 mb-3">Spotify Playlist Generator</h6>
+                                            <i class="fab fa-spotify fa-3x icon"></i>
+                                            <p class="mt-4 text-muted">website that generates Spotify playlists based on selected songs and user preferences using Spotify Web API and React</p>
+                                    </div>
+                                </div>
+                                <h6 class="text-center text-white mt-2 mb-3">Spotify Playlist Generator</h6>
+                                <img class="img-fluid" style="max-width: 70%;"src="assets/img/spotify.png" alt="" />
+                            </div>
+                    </div>
+                    
                     <!-- Portfolio Item 2-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item portfolio-content mx-auto" data-target="#portfolioModal1">
@@ -208,15 +242,19 @@
                             <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="" />
                         </div>
                     </div>
-                    <!-- Portfolio Item 6-->
-<!--                     <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    <!--Portfolio Item 7-->
+                    <div class="col-md-6 col-lg-4">
+                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6" style="background-color:#0254a3">
+                                <div class="portfolio-item-caption text-center align-items-center justify-content-center h-100 w-100">
+                                    <h6 class="text-center mt-2 mb-3">NBA Salary Predictor</h6>
+                                    <i class="fas fa-basketball-ball fa-3x icon"></i>
+                                    <p class="mt-4 text-muted">Python script that predicts the annual salary of an NBA player given a range of his on court statistics</p>
+                                </div>
+                                <h6 class="text-center text-white mt-2 mb-3">NBA Salary Predictor</h6>
+                                
+                                <img class="img-fluid rounded" src="assets/img/nba.jpg" alt="" />
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="" />
                         </div>
-                    </div> -->
                 </div>
             </div>
         </section>

@@ -113,13 +113,13 @@ img.profile-img {
     background: #fff;
 }
 
-img,section {
+section {
     opacity: 0;
     transform: translate(0, 20px); 
     transition: all 2s;
     }
 
-img.visible,section.visible {
+section.visible {
     opacity: 1;
     transform: translate(0, 0); 
     }
