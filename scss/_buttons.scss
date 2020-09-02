@@ -28,3 +28,30 @@
         line-height: 3.1rem;
     }
 }
+
+.btn-outline-linkedin {
+    border-color: #343a40;
+    &:hover {
+        color: #fff;
+        background-color: #0077b5;
+        border-color: #0077b5;
+    }
+}
+
+.btn-outline-phone {
+    border-color: #343a40;
+    &:hover {
+        color: #fff;
+        background-color: #34C759;
+        border-color: #34C759;
+    }
+}
+
+.btn-outline-mail {
+    border-color: #343a40;
+    &:hover {
+        color: #fff;
+        background-color: #d93126;
+        border-color: #d93126;
+    }
+}
