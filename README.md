@@ -1,3 +1,3 @@
 # personal-website
 
-view [here] (https://rajaisinghani.github.io/)
+view [here](https://rajaisinghani.github.io/)
