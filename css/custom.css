@@ -104,15 +104,15 @@ img.profile-img {
 }
 /* -------------------------------------*/
 
-.navbar-shrink .show{
+/* .navbar-shrink .show{
     color: black;
 }
 
 .navbar-shrink{
     background: #fff;
-}
+} */
 
-section {
+/* section {
     opacity: 0;
     transform: translate(0, 20px); 
     transition: all 2s;
@@ -125,7 +125,7 @@ section#about {
 section.visible {
     opacity: 1;
     transform: translate(0, 0); 
-    }
+    } */
 
 .exp-item {
     border-bottom: 1px solid;

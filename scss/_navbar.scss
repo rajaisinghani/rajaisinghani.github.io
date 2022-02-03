@@ -1,10 +1,11 @@
 // Styling for the navbar
 #mainNav {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    //padding-top: 1rem;
+    //padding-bottom: 1rem;
     font-family: $headings-font-family;
     font-weight: normal;
-    color: $white;
+    background: $white;
+    //color: $white;
     .navbar-brand {
         color: $white;
     }
@@ -18,10 +19,10 @@
                 &:active,
                 &:focus {
                 }
-                &.active {
-                    border-bottom: 2px solid;
-                    font-weight: 800; 
-                }
+                // &.active {
+                //     border-bottom: 2px solid;
+                //     font-weight: 800; 
+                // }
             }
         }
     }
@@ -32,8 +33,8 @@
 }
 @include media-breakpoint-up(lg) {
     #mainNav {
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+        //padding-top: 1.5rem;
+        //padding-bottom: 1.5rem;
         transition: padding-top 0.3s, padding-bottom 0.3s;
         .navbar-brand {
             font-size: 1.75em;
@@ -49,10 +50,10 @@
                     &:active,
                     &:focus {
                     }
-                    &.active {
-                        border-bottom: 2px solid;
-                        font-weight: 800; 
-                    }
+                    // &.active {
+                    //     border-bottom: 2px solid;
+                    //     font-weight: 800; 
+                    // }
                 }
             }
         }
