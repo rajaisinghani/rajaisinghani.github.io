@@ -7839,7 +7839,9 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 1.25rem;
   justify-content: center;
   align-items: center;
-  background-color: white; }
+  background-color: white;
+  border-color: white;
+  transition: 1s; }
 
 .scroll-to-top {
   z-index: 1042;
