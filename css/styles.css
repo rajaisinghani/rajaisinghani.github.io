@@ -7834,8 +7834,8 @@ a.text-dark:hover, a.text-dark:focus {
 .btn-social {
   border-radius: 100%;
   display: inline-flex;
-  width: 3.25rem;
-  height: 3.25rem;
+  width: 3rem;
+  height: 3rem;
   font-size: 1.25rem;
   justify-content: center;
   align-items: center;
@@ -7866,6 +7866,11 @@ a.text-dark:hover, a.text-dark:focus {
   color: #fff;
   background-color: #d93126;
   border-color: #d93126; }
+
+.btn-outline-git:hover {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40; }
 
 #mainNav {
   font-weight: normal;
